@@ -5,13 +5,13 @@ export interface ParkViewModel {
 
 export interface ParkViewModelListItem {
   id: string;
-  name: string;
+  reservation: string;
   acreage: string;
   notes: string;
 }
 
 export interface ParkCreate {
-  name: string;
+  reservation: string;
   acreage?: string;
   notes?: string;
 }
